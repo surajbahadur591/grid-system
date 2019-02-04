@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #F6F9FC;
+	font-family: sans-serif;
+	color: #02203C;
+	font-size: 20px;
+	margin:0px;
+	overflow: hidden;
+}
+.center {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+ justify-content: center;
+}
+.center h2 {
+	font-size: 28px;
+}
+
+.main {
+
+display: grid;
+grid-template-rows: repeat(2, 200px);
+grid-template-columns: repeat(3, 300px);
+grid-gap: 50px;
+
+}
+.question {
+ 	/*background-color: red;*/
+ 	text-align: center;
+ 	font-size: 18px;
+
+ }
+ .question h3 {
+ 		margin:0px;
+ 		font-size: 20px;
+ 	}
+ .explanation {
+ 	/*background-color: navy;*/
+ 	text-align: center;
+ 	font-size: 18px;
+ }
+  .explanation h3 {
+ 		margin:0px;
+ 		font-size: 20px;
+ 	}
+ .language {
+ 	/*background-color: green;*/
+ 	text-align: center;
+ 	font-size: 18px;
+ }
+.language h3 {
+ 		margin:0px;
+ 		font-size: 20px;
+ 	}
+ .environment {
+ 	/*background-color: pink;*/
+ 	text-align: center;
+ 	font-size: 18px;
+ }
+ .environment h3 {
+ 		margin:0px;
+ 		font-size: 20px;
+ 	}
+ .analysis {
+/* 	background-color: gold;*/
+ 	text-align: center;
+ 	font-size: 18px;
+ }
+.analysis h3 {
+ 		margin:0px;
+ 		font-size: 20px;
+ 	}
+ .tips {
+/* 	background-color: silver;*/
+ 	text-align: center;
+ 	font-size: 18px;
+ }
+ .tips h3 {
+ 		margin:0px;
+ 		font-size: 20px;
+ 	}
